@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Психолог — сайт-визитка</title>
+    <meta name="description" content="КПТ и DBT психолог, EMDR-терапевт" />
+
+    <!-- подключение стилей -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="top">
+                <div class="brand">
+                    <div>
+                        <h1>Психолог Дарья Толмачёва</h1>
+                        <p>КПТ и DBT психолог, EMDR-терапевт</p>
+                        <div class="badge">Онлайн · Конфиденциально · Бережно</div>
+                    </div>
+                    <div class="profile-wrap">
+                        <img src="photos/portrait2.jpg" alt="Портрет" class="profile-photo">
+                    </div>
+
+                </div>
+
+                <nav>
+                    <a href="#about">Обо мне</a>
+                    <a href="#work">С чем я работаю</a>
+                    <a href="#education">Образование</a>
+                    <a href="#price">Стоимость</a>
+                    <a href="#contacts">Контакты</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="grid">
+            <section id="about">
+                <h2><span class="dot"></span>Обо мне</h2>
+
+                <!-- <p>
+          Когнитивно-поведенческий психолог, EMDR-терапевт, DBT-информированный психолог.
+        </p> -->
+                <p>Меня зовут Дарья Толмачева.</p>
+                <p>Я - дипломированный психолог ( факультет психологии СПбГУ, специалитет)</p>
+
+
+                <p class="approaches">
+                    Работаю в подходах
+                    <a class="term-link" href="#method-cbt">
+                        <abbr class="term" aria-label="Когнитивно-поведенческая терапия">КПТ</abbr>
+                        <span class="tip" role="tooltip">
+                            <span class="tip-title">Когнитивно-поведенческая терапия</span>
+                            <span class="tip-hint">Нажмите, чтобы узнать больше</span>
+                        </span>
+                    </a>,
+                    <a class="term-link" href="#method-emdr">
+                        <abbr class="term" aria-label="Eye Movement Desensitization and Reprocessing">EMDR</abbr>
+                        <span class="tip" role="tooltip">
+                            <span class="tip-title">Eye Movement Desensitization and Reprocessing</span>
+                            <span class="tip-subtitle">Десенсибилизация и переработка движениями глаз</span>
+                            <span class="tip-hint">Нажмите, чтобы узнать больше</span>
+                        </span>
+                    </a>,
+                    <a class="term-link" href="#method-dbt">
+                        <abbr class="term" aria-label="Dialectical Behavior Therapy">DBT</abbr>
+                        <span class="tip" role="tooltip">
+                            <span class="tip-title">Dialectical Behavior Therapy</span>
+                            <span class="tip-subtitle">Диалектико-поведенческая терапия</span>
+                            <span class="tip-hint">Нажмите, чтобы узнать больше</span>
+                        </span>
+                    </a>.
+                </p>
+
+                <div class="method-panels">
+                    <div id="method-cbt" class="method-panel" aria-live="polite">
+                        <div class="method-head">
+                            <strong>КПТ</strong>
+                            <a class="method-close" href="#about" aria-label="Скрыть описание">Скрыть</a>
+                        </div>
+                        <p>
+                            КПТ (когнитивно-поведенческая терапия) — научно обоснованный подход, который помогает
+                            понять взаимосвязь мыслей, эмоций и поведения и постепенно менять неэффективные стратегии
+                            на более поддерживающие и работающие в реальной жизни.
+                        </p>
+                        <p class="method-link">
+                            <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B3%D0%BD%D0%B8%D1%82%D0%B8%D0%B2%D0%BD%D0%BE-%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F"
+                                target="_blank" rel="noopener">
+                                Подробнее на Википедии
+                            </a>
+                        </p>
+                    </div>
+
+                    <div id="method-emdr" class="method-panel" aria-live="polite">
+                        <div class="method-head">
+                            <strong>EMDR</strong>
+                            <a class="method-close" href="#about" aria-label="Скрыть описание">Скрыть</a>
+                        </div>
+                        <p>
+                            EMDR (Eye Movement Desensitization and Reprocessing) — метод, который используется для
+                            переработки травматичных и эмоционально перегружающих воспоминаний и снижает интенсивность
+                            связанных с ними реакций. Работа направлена на то, чтобы опыт «перестал ранить» и меньше
+                            влиял на жизнь в настоящем.
+                        </p>
+                        <p class="method-link">
+                            <a href="https://ru.wikipedia.org/wiki/EMDR" target="_blank" rel="noopener">
+                                Подробнее на Википедии
+                            </a>
+                        </p>
+                    </div>
+
+                    <div id="method-dbt" class="method-panel" aria-live="polite">
+                        <div class="method-head">
+                            <strong>DBT</strong>
+                            <a class="method-close" href="#about" aria-label="Скрыть описание">Скрыть</a>
+                        </div>
+                        <p>
+                            DBT (Dialectical Behavior Therapy) — подход, который помогает развивать навыки
+                            эмоциональной регуляции, стрессоустойчивости и более бережного взаимодействия с собой и
+                            другими.
+                            Часто используется, когда чувства слишком интенсивны или трудно удерживать баланс в
+                            отношениях.
+                        </p>
+                        <p class="method-link">
+                            <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D0%B0%D0%BB%D0%B5%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F"
+                                target="_blank" rel="noopener">
+                                Подробнее на Википедии
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <ul>
+                    <li>Действующий член <a href="https://associationcbt.ru/">Ассоциации когнитивно-поведенческой
+                            психотерапии</a></li>
+                    <li>Действующий член <a href="https://www.emdr.ru/">Ассоциации EMDR в России</a></li>
+                </ul>
+
+                <div class="principles">
+                    <strong>Мои основные принципы ведения сессии:</strong>
+                    научный подход, бережность, уважение, искренняя безусловная поддержка и принятие,
+                    полная конфиденциальность.
+                </div>
+
+                <p>
+                    Постоянно посещаю интервизии, супервизии и личную терапию.
+                </p>
+            </section>
+
+
+
+            <section id="work">
+                <h2><span class="dot"></span>С чем я работаю</h2>
+                <ul>
+                    <!-- <li>эмиграция</li>
+          <li>депрессия и тревога</li>
+          <li>неуверенность в себе и самооценка</li>
+          <li>выгорание и прокрастинация</li>
+          <li>страхи и сильные чувства</li> -->
+                    <li>любой травматический опыт </li>
+                    <li> ПТСР</li>
+                    <li>кПТСР</li>
+                    <li>неувернннсть в себе</li>
+                    <li>выстраивание личных границ</li>
+                    <li>тревожные расстройства</li>
+                    <li>депрессии</li>
+                    <li>эмиграция</li>
+                    <li>Выгорание</li>
+                    <li>СДВГ</li>
+                    <li>Любовная зависимость</li>
+                    <li>Сложности в отношениях с партнёром</li>
+                    <li>Разрыв отношений</li>
+                    <li>Развод</li>
+                    <li>Прокрастинация</li>
+                    <li>Перфекционизм</li>
+                    <li>Синдром самозванца</li>
+
+                </ul>
+            </section>
+
+            <section id="price">
+                <h2><span class="dot"></span>Стоимость услуг</h2>
+
+                <p>одна сессия 60 минут - 4000 руб.</p>
+                <p> EMDR сессия 90 минут - 4500 руб.</p>
+
+            </section>
+
+            <section id="contacts">
+                <h2><span class="dot"></span>Контакты</h2>
+
+
+                <div class="contacts-list">
+                    <a class="contact-item" href="mailto:daria.tolmacheva.86@gmail.com">
+                        <span class="icon icon-email" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <!-- фон -->
+                                <!-- <rect x="3" y="6" width="18" height="13" rx="3" fill="#E8F0FF" /> -->
+                                <!-- конверт -->
+                                <path d="M6 8.5h12a2 2 0 0 1 2 2v6.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10.5a2 2 0 0 1 2-2Z"
+                                    fill="#3B82F6" />
+                                <!-- клапан -->
+                                <path d="M4.8 10.2 11.3 14.7a1.2 1.2 0 0 0 1.4 0l6.5-4.5" fill="none" stroke="#FFFFFF"
+                                    stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+
+
+
+                        <span class="contact-text">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">daria.tolmacheva.86@gmail.com</span>
+                        </span>
+                    </a>
+
+                    <a class="contact-item" href="https://t.me/DariaT_psy" target="_blank" rel="noopener">
+                        <span class="icon icon-telegram" aria-hidden="true">
+                            <!-- telegram icon (simple) -->
+                            <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="120" cy="120" r="120" fill="#26A5E4" />
+                                <path
+                                    d="M53 123.6 174.2 73.5c5.4-2 10.3 1.3 8.6 8.7l-20.7 97.7c-1.5 6.9-5.7 8.6-11.5 5.4l-31.8-23.5-15.3 14.7c-1.7 1.7-3.1 3.1-6.3 3.1l2.2-31.6 57.5-51.9c2.5-2.2-.5-3.4-3.9-1.2l-71.1 44.8-30.7-9.6c-6.7-2.1-6.8-6.7 1.4-9.9Z"
+                                    fill="#fff" />
+                            </svg>
+                        </span>
+                        <span class="contact-text">
+                            <span class="contact-label">Telegram</span>
+                            <span class="contact-value">@DariaT_psy</span>
+                        </span>
+                    </a>
+
+                    <!-- <a class="contact-item" href="https://www.instagram.com/username/" target="_blank"
+                        rel="noopener">
+                        <span class="icon icon-instagram" aria-hidden="true"> -->
+                            <!-- instagram icon (simple) -->
+                            <!-- <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="igGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+                                        <stop offset="0%" stop-color="#F58529" />
+                                        <stop offset="30%" stop-color="#FEDA77" />
+                                        <stop offset="60%" stop-color="#DD2A7B" />
+                                        <stop offset="100%" stop-color="#8134AF" />
+                                    </linearGradient>
+                                </defs>
+                                <rect x="2" y="2" width="20" height="20" rx="5" fill="none" stroke="url(#igGradient)"
+                                    stroke-width="1.7" />
+                                <circle cx="12" cy="12" r="4.5" fill="none" stroke="url(#igGradient)"
+                                    stroke-width="1.7" />
+                                <circle cx="17" cy="7" r="1.2" fill="url(#igGradient)" />
+                            </svg>
+                        </span>
+                        <span class="contact-text">
+                            <span class="contact-label">Instagram</span>
+                            <span class="contact-value">@username</span>
+                        </span>
+                    </a> -->
+                </div>
+
+            </section>
+
+            <section id="education">
+                <h2><span class="dot"></span>Образование и дипломы</h2>
+                <div class="docs-grid">
+
+                    <a href="#diploma" class="doc-link">
+                        <img src="photos/diploma.jpg" alt="Диплом" class="doc-thumb">
+                    </a>
+                    <div id="diploma" class="lightbox">
+                        <a href="#education" class="close">
+                            <img src="photos/diploma.jpg" alt="Диплом">
+                        </a>
+                    </div>
+
+                    <a href="#doc_cbt" class="doc-link">
+                        <img src="photos/CBT.jpg" alt="КПТ" class="doc-thumb">
+                    </a>
+                    <div id="doc_cbt" class="lightbox">
+                        <a href="#education" class="close">
+                            <img src="photos/CBT.jpg" alt="Диплом">
+                        </a>
+                    </div>
+
+                    <a href="#doc_emdr" class="doc-link">
+                        <img src="photos/emdr.jpg" alt="EMDR" class="doc-thumb">
+                    </a>
+                    <div id="doc_emdr" class="lightbox">
+                        <a href="#education" class="close">
+                            <img src="photos/emdr.jpg" alt="Диплом">
+                        </a>
+                    </div>
+
+                    <a href="#doc_cbt1" class="doc-link">
+                        <img src="photos/CBT_1.jpg" alt="КПТ" class="doc-thumb">
+                    </a>
+                    <div id="doc_cbt1" class="lightbox">
+                        <a href="#education" class="close">
+                            <img src="photos/CBT_1.jpg" alt="Диплом">
+                        </a>
+                    </div>
+
+                    <a href="#doc_cbt2" class="doc-link">
+                        <img src="photos/CBT_2.jpg" alt="КПТ" class="doc-thumb">
+                    </a>
+                    <div id="doc_cbt2" class="lightbox">
+                        <a href="#education" class="close">
+                            <img src="photos/CBT_2.jpg" alt="Диплом">
+                        </a>
+                    </div>
+
+                    <a href="#doc_cbt3" class="doc-link">
+                        <img src="photos/CBT_3.jpg" alt="КПТ" class="doc-thumb">
+                    </a>
+                    <div id="doc_cbt3" class="lightbox">
+                        <a href="#education" class="close">
+                            <img src="photos/CBT_3.jpg" alt="Диплом">
+                        </a>
+                    </div>
+
+                    <a href="#doc_cbt4" class="doc-link">
+                        <img src="photos/CBT_4.jpg" alt="КПТ" class="doc-thumb">
+                    </a>
+                    <div id="doc_cbt4" class="lightbox">
+                        <a href="#education" class="close">
+                            <img src="photos/CBT_4.jpg" alt="Диплом">
+                        </a>
+                    </div>
+
+                    <a href="#doc_cbt5" class="doc-link">
+                        <img src="photos/CBT_5.jpg" alt="КПТ" class="doc-thumb">
+                    </a>
+                    <div id="doc_cbt5" class="lightbox">
+                        <a href="#education" class="close">
+                            <img src="photos/CBT_5.jpg" alt="Диплом">
+                        </a>
+                    </div>
+                    <!-- <img src="photos/diploma.jpg" alt="Диплом" class="diploma"> -->
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            Дарья Толмачeва <span id="y"></span>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('y').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
