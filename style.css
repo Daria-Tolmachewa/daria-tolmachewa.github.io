@@ -304,7 +304,7 @@ a:link{
 
 .doc-thumb{
   width: 100%;
-  /* aspect-ratio: 3 / 4; */
+  aspect-ratio: 1;
   object-fit: cover;
   border-radius: 10px;
   border: 1px solid #e5e7eb;
